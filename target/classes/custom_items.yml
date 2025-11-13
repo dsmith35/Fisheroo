@@ -1,0 +1,1693 @@
+items:
+  # GENERAL
+  TEST_ITEM:
+    id: "2"
+    skull: 1
+    name: "Test Item"
+    rarity: 7
+
+  NULL:
+    id: "0"
+    material: BARRIER
+    name: "NULL"
+    rarity: 0
+    lore:
+      - "Obtained Illegally"
+
+  KRAKEN_INK:
+    id: "dd040f2e"
+    material: INK_SAC
+    name: "Kraken Ink"
+    rarity: -1
+  
+  TURTLE_SHELL:
+    id: "aab1313c"
+    material: TURTLE_SCUTE
+    name: "Turtle Shell"
+    rarity: -1
+
+  LOST_SPYGLASS:
+    id: "32b76a6c"
+    material: SPYGLASS
+    name: "Lost Spyglass"
+    rarity: 0
+
+  LAVA_CHICKEN:
+    id: "23ebd084"
+    material: COOKED_CHICKEN
+    name: "Lava Chicken"
+    rarity: 5
+
+  OLD_PAPER:
+    id: "0c0505bf"
+    material: PAPER
+    name: "Old Paper"
+    rarity: 1
+  
+  ROD_OF_THE_DEEP:
+    id: "92263bba"
+    material: BREEZE_ROD
+    name: "Rod of the Deep"
+    rarity: 4
+
+  CHERRY_GATEWAY:
+    id: "039cfee0"
+    material: ENDER_PEARL
+    name: "&dCherry Gateway"
+    rarity: 5
+    glow: true
+    warp: CHERRY_GROVE
+    lore:
+      - "A tiny cherry grove sits inside this pearl."
+      - "Suspended in endless bloom by its creator."
+      - ""
+      - "&a[Right click to enter!]"
+  
+  OCEAN_HORN:
+    id: "cb52b0ff"
+    material: GOAT_HORN
+    name: "Ocean Horn"
+    rarity: 4
+    summon: PEARLWEAVER_SIREN
+    lore:
+      - "Summons the Pearlweaver Siren"
+
+  SHELL_TALISMAN:
+    id: "d80fa9ec"
+    material: NAUTILUS_SHELL
+    name: "Shell Talisman"
+    rarity: 0
+    glow: true
+    type: "talisman"
+    stats:
+      luck: 0.1
+
+  VOID_FISH:
+    id: "ee8a5919"
+    material: COD
+    name: "Void Fish"
+    rarity: 0
+    lore:
+      - "How did you get this?"
+
+  PINK_SPLASHER:
+    id: "46db3432"
+    material: SALMON
+    name: "Pink Splasher"
+    rarity: 0
+
+  ADMIN_ROD:
+    id: "f80c54d5"
+    material: FISHING_ROD
+    name: "Admin Rod"
+    rarity: 6
+    unbreakable: true
+    stats:
+      fishing_speed: 2
+      multifish: 50
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Do not give this to players"
+
+  COPPER_ROD:
+    id: "a07bdcc5"
+    material: FISHING_ROD
+    name: "Copper Rod"
+    rarity: 1
+    unbreakable: true
+    stats:
+      fishing_speed: 0
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  COPPER_ROD:
+    id: "aa8947a3"
+    material: FISHING_ROD
+    name: "Copper Rod"
+    rarity: 1
+    unbreakable: true
+    stats:
+      luck: 0.1
+      fishing_speed: -1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  BRONZE_ROD:
+    id: "3534535a"
+    material: FISHING_ROD
+    name: "Bronze Rod"
+    rarity: 2
+    unbreakable: true
+    stats:
+      luck: 0.2
+      fishing_speed: -1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  SILVER_ROD:
+    id: "a4edd7a0"
+    material: FISHING_ROD
+    name: "Silver Rod"
+    rarity: 3
+    unbreakable: true
+    stats:
+      luck: 0.3
+      fishing_speed: -1
+      multifish: 2
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+    
+  GOLD_ROD:
+    id: "e8d4933a"
+    material: FISHING_ROD
+    name: "Gold Rod"
+    rarity: 4
+    unbreakable: true
+    stats:
+      luck: 0.5
+      fishing_speed: -1
+      multifish: 3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+  
+  PLATINUM_ROD:
+    id: "700d6c94"
+    material: FISHING_ROD
+    name: "Platinum Rod"
+    rarity: 5
+    unbreakable: true
+    stats:
+      luck: 1
+      fishing_speed: -1
+      multifish: 5
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  QUICK_ROD:
+    id: "0a4efab2"
+    material: FISHING_ROD
+    name: "Quick Rod"
+    rarity: 3
+    unbreakable: true
+    stats:
+      fishing_speed: 2
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  TREASURE_ROD:
+    id: "783cb15e"
+    material: FISHING_ROD
+    name: "Treasure Rod"
+    rarity: 4
+    unbreakable: true
+    stats:
+      fishing_speed: -2
+      luck: 1
+      multifish: 2
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  PUFF_ARTIFACT:
+    id: "59a80481"
+    skull: 64808
+    name: "Puff Artifact"
+    rarity: 6
+    type: "artifact"
+    stats:
+      luck: 1
+
+  HERMIT_CRAB_ARTIFACT:
+    id: "92588a49"
+    skull: 39747
+    name: "Hermit Crab Artifact"
+    rarity: 6
+    type: "artifact"
+    stats:
+      luck: 1
+
+  MIDAS_ARTIFACT:
+    id: "0f2ca18b"
+    skull: 65173
+    name: "Midas Artifact"
+    rarity: 6
+    type: "artifact"
+    stats:
+      luck: 1
+
+  CHERRY_ARTIFACT:
+    id: "4543412d"
+    skull: 46250
+    name: "Cherry Artifact"
+    rarity: 6
+    type: "artifact"
+    stats:
+      multifish: 1
+
+  STARTER_ROD:
+    id: "639e0b22"
+    material: FISHING_ROD
+    name: "[T0] Starter Rod"
+    rarity: 0
+    unbreakable: true
+    stats:
+      fishing_speed: -1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Basic Fishing Rod"
+
+  STARTER_SWORD:
+    id: "3d40de6b"
+    material: WOODEN_SWORD
+    name: "Starter Sword"
+    rarity: 0
+    unbreakable: true
+    stats:
+      damage: 2
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "A basic sword carved from driftwood"
+
+  FISHING_TOKEN:
+    id: "94288ef2"
+    material: SUNFLOWER
+    name: "Fishing Token [Click to use!]"
+    rarity: 2
+    lore:
+      - "Simulates Fishing!"
+      - ""
+      - "&a[Click - Redeem 1]"
+      - "&a[Sneak + Click - Redeem 10]"
+
+  GOLD_COIN:
+    id: "74573fff"
+    material: GOLD_NUGGET
+    name: "Gold Coin"
+    rarity: 0
+    lore:
+      - "Currency of the realm!"
+
+  GOLD_BAR:
+    id: "95b7f8a2"
+    material: GOLD_INGOT
+    name: "Gold Bar"
+    rarity: 0
+    lore:
+      - "Currency of the realm!"
+      - "Worth 64 gold coins!"
+
+  GOLD_BLOCK:
+    id: "9345d30e"
+    material: GOLD_BLOCK
+    name: "Gold Block"
+    rarity: 0
+    lore:
+      - "Currency of the realm!"
+      - "Worth 4,096 gold coins!"
+
+  ROYAL_GOLD_BLOCK:
+    id: "2b0b8044"
+    material: GOLD_BLOCK
+    name: "Royal Gold Block"
+    glow: true
+    rarity: 0
+    lore:
+      - "Currency of the realm!"
+      - "Worth 262,144 gold coins!"
+
+  PIONEER_HELMET:
+    id: "60963c7f"
+    material: LEATHER_HELMET
+    name: "Pioneer Helmet"
+    rarity: 3
+    unbreakable: true
+    color: "#f79eff"
+    set: PIONEER
+    stats:
+      luck: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "For early adopters of the game"
+
+  PIONEER_CHESTPLATE:
+    id: "c427aa64"
+    material: LEATHER_CHESTPLATE
+    name: "Pioneer Chestplate"
+    rarity: 3
+    unbreakable: true
+    color: "#f79eff"
+    set: PIONEER
+    stats:
+      luck: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "For early adopters of the game"
+
+  PIONEER_LEGGINGS:
+    id: "b6ad8d36"
+    material: LEATHER_LEGGINGS
+    name: "Pioneer Leggings"
+    rarity: 3
+    unbreakable: true
+    color: "#f79eff"
+    set: PIONEER
+    stats:
+      luck: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "For early adopters of the game"
+
+  PIONEER_BOOTS:
+    id: "5b75b9b7"
+    material: LEATHER_BOOTS
+    name: "Pioneer Boots"
+    rarity: 3
+    unbreakable: true
+    color: "#f79eff"
+    set: PIONEER
+    stats:
+      luck: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "For early adopters of the game"
+
+  # === BEACH ===
+  # - MATERIALS -
+  DRIFTWOOD:
+    id: "07ebc10a"
+    material: STICK
+    name: "Driftwood"
+    rarity: 0
+    lore:
+      - "Common piece of driftwood"
+
+  TROPICAL_FISH:
+    id: "e8f3282c"
+    material: TROPICAL_FISH
+    name: "Tropical Fish"
+    rarity: 0
+    lore:
+      - "A colorful tropical fish"
+
+  SEASHELL:
+    id: "76ad252b"
+    material: NAUTILUS_SHELL
+    name: "Seashell"
+    rarity: 1
+    lore:
+      - "A small seashell"
+
+  SHARK_TOOTH:
+    id: "3f4f46f0"
+    material: PRISMARINE_SHARD
+    name: "Shark Tooth"
+    rarity: 2
+    lore:
+      - "A sharp tooth from a shark"
+
+  CURSED_BONE:
+    id: "42f88798"
+    material: BONE
+    name: "Cursed Bone"
+    rarity: 3
+    lore:
+      - "A bone imbued with dark energy"
+
+  PIRATE_GOLD:
+    id: "4b7c28b5"
+    material: RAW_GOLD
+    name: "Pirate Gold"
+    rarity: 4
+
+  PIRATE_CLOTH:
+    id: "c465d918"
+    material: SNORT_POTTERY_SHERD
+    name: "Pirate Cloth"
+    rarity: 3
+    lore:
+      - "Can be used to craft Pirate Armor"
+
+  # - ARMOR -
+  PIRATE_HELMET:
+    id: "500024a6"
+    material: LEATHER_HELMET
+    name: "Pirate Helmet"
+    rarity: 3
+    unbreakable: true
+    color: "#813327"
+    set: PIRATE
+    stats:
+      luck: 0.05
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Leather helmet worn by pirates"
+
+  PIRATE_CHESTPLATE:
+    id: "571a8422"
+    material: LEATHER_CHESTPLATE
+    name: "Pirate Chestplate"
+    rarity: 3
+    unbreakable: true
+    color: "#B56742"
+    set: PIRATE
+    stats:
+      luck: 0.05
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Sturdy chestplate for pirates"
+
+  PIRATE_LEGGINGS:
+    id: "13c41350"
+    material: LEATHER_LEGGINGS
+    name: "Pirate Leggings"
+    rarity: 3
+    unbreakable: true
+    color: "#813327"
+    set: PIRATE
+    stats:
+      luck: 0.05
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Leggings worn by pirate crews"
+
+  PIRATE_BOOTS:
+    id: "36976bc8"
+    material: LEATHER_BOOTS
+    name: "Pirate Boots"
+    rarity: 3
+    unbreakable: true
+    color: "#5B382A"
+    set: PIRATE
+    stats:
+      luck: 0.05
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Boots favored by pirates"
+
+  CAPTAIN_HAT:
+    id: "c0f0ca03"
+    material: LEATHER_HELMET
+    name: "Captain's Hat"
+    rarity: 4
+    unbreakable: true
+    color: "#000000"
+    set: PIRATE
+    stats:
+      luck: 0.15
+      ruin: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Hat of Captain Blackfin"
+
+  SHELL_HELMET:
+    id: "ad80d8b6"
+    material: LEATHER_HELMET
+    name: "[T0] Shell Helmet"
+    rarity: 0
+    unbreakable: true
+    color: "#ddb396"
+    stats:
+      luck: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Made from seashells"
+
+  SHELL_CHESTPLATE:
+    id: "fc2c3838"
+    material: LEATHER_CHESTPLATE
+    name: "[T0] Shell Chestplate"
+    rarity: 0
+    unbreakable: true
+    color: "#ddb396"
+    stats:
+      luck: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Made from seashells"
+
+  SHELL_LEGGINGS:
+    id: "b531b634"
+    material: LEATHER_LEGGINGS
+    name: "[T0] Shell Leggings"
+    rarity: 0
+    unbreakable: true
+    color: "#ddb396"
+    stats:
+      luck: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Made from seashells"
+
+  SHELL_BOOTS:
+    id: "615939a8"
+    material: LEATHER_BOOTS
+    name: "[T0] Shell Boots"
+    rarity: 0
+    unbreakable: true
+    color: "#ddb396"
+    stats:
+      luck: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Made from seashells"
+
+  BEACH_HELMET:
+    id: "afe6566e"
+    material: LEATHER_HELMET
+    name: "[T1] Beach Helmet"
+    rarity: 1
+    unbreakable: true
+    color: "#e8d474"
+    stats:
+      luck: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  BEACH_CHESTPLATE:
+    id: "388958cb"
+    material: LEATHER_CHESTPLATE
+    name: "[T1] Beach Chestplate"
+    rarity: 1
+    unbreakable: true
+    color: "#c9b44d"
+    stats:
+      luck: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  BEACH_LEGGINGS:
+    id: "c09e3a7a"
+    material: LEATHER_LEGGINGS
+    name: "[T1] Beach Leggings"
+    rarity: 1
+    unbreakable: true
+    color: "#e0d665"
+    stats:
+      luck: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  BEACH_BOOTS:
+    id: "a5700250"
+    material: LEATHER_BOOTS
+    name: "[T1] Beach Boots"
+    rarity: 1
+    unbreakable: true
+    color: "#dbc246"
+    stats:
+      luck: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  TURTLE_HELMET:
+    id: "549e1e1d"
+    material: TURTLE_HELMET
+    name: "Turtle Helmet"
+    rarity: 2
+    unbreakable: true
+    stats:
+      luck: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  # - WEAPONS -
+  PIRATE_CUTLASS:
+    id: "77c8b9f1"
+    material: GOLDEN_SWORD
+    name: "Pirate Cutlass"
+    rarity: 4
+    unbreakable: true
+    stats:
+      damage: 11
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Golden Pirate Cutlass"
+
+  SHELL_SWORD:
+    id: "189563eb"
+    material: WOODEN_SWORD
+    name: "Shell Sword"
+    rarity: 0
+    unbreakable: true
+    stats:
+      damage: 5
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Made from seashells"
+
+  SHARK_TOOTH_SWORD:
+    id: "5997de1a"
+    material: STONE_SWORD
+    name: "Shark Tooth Sword"
+    rarity: 1
+    unbreakable: true
+    stats:
+      damage: 6
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  # RODS
+  BEACH_ROD:
+    id: "5420fd7e"
+    material: FISHING_ROD
+    name: "[T1] Beach Rod"
+    rarity: 1
+    unbreakable: true
+    stats:
+      luck: 0.1
+      fishing_speed: 0
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  PIRATE_ROD:
+    id: "830a0071"
+    material: FISHING_ROD
+    name: "Pirate Rod"
+    rarity: 3
+    unbreakable: true
+    stats:
+      luck: 0.05
+      ruin: 0.1
+      fishing_speed: 1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+    lore:
+      - "Pirate Rod"
+
+  # TALISMANS
+  BEACH_TALISMAN:
+    id: "91b88cd5"
+    material: TURTLE_SPAWN_EGG
+    name: "[T1] Beach Talisman"
+    rarity: 1
+    glow: true
+    type: "talisman"
+    stats:
+      luck: 0.2
+
+  # === OCEAN ===
+  # - MATERIALS -
+  SEAWEED:
+    id: "0588aefc"
+    material: SEAGRASS
+    name: "Seaweed"
+    rarity: 0
+
+  ATLANTIC_SALMON:
+    id: "54504472"
+    material: SALMON
+    name: "Atlantic Salmon"
+    rarity: 0
+
+  RAINBOW_TROUT:
+    id: "0e763719"
+    material: COOKED_SALMON
+    name: "Rainbow Trout"
+    rarity: 1
+    lore:
+      - "Its scales shimmer like a rainbow."
+
+  PEARL:
+    id: "b0c7de98"
+    material: IRON_NUGGET
+    name: "Pearl"
+    rarity: 2
+
+  CORAL_FRAGMENT:
+    id: "3c4d5e6f"
+    material: BUBBLE_CORAL
+    name: "Coral Fragment"
+    rarity: 3
+
+  MERMAID_SCALE:
+    id: "90005b25"
+    material: AMETHYST_SHARD
+    name: "Mermaid Scale"
+    rarity: 4
+
+  MEGALODON_TOOTH:
+    id: "5a128898"
+    material: PRISMARINE_SHARD
+    name: "Megalodon Tooth"
+    rarity: 5
+    lore:
+      - "From the jaws of an ancient predator."
+      - "Extremely rare, highly valuable."
+
+  SUNKEN_SCRAP:
+    id: "7b1f77d1"
+    material: NETHER_BRICK
+    name: "Sunken Scrap"
+    rarity: 4
+
+  # ARMOR
+  OCEAN_HELMET:
+    id: "579756c8"
+    material: LEATHER_HELMET
+    name: "[T2] Ocean Helmet"
+    rarity: 2
+    unbreakable: true
+    color: "#489ac7"
+    stats:
+      luck: 0.25
+      ruin: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  OCEAN_CHESTPLATE:
+    id: "1e41e7f1"
+    material: LEATHER_CHESTPLATE
+    name: "[T2] Ocean Chestplate"
+    rarity: 2
+    unbreakable: true
+    color: "#1891c4"
+    stats:
+      luck: 0.25
+      ruin: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  OCEAN_LEGGINGS:
+    id: "55036851"
+    material: LEATHER_LEGGINGS
+    name: "[T2] Ocean Leggings"
+    rarity: 2
+    unbreakable: true
+    color: "#1783b0"
+    stats:
+      luck: 0.25
+      ruin: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  OCEAN_BOOTS:
+    id: "7b711e43"
+    material: LEATHER_BOOTS
+    name: "[T2] Ocean Boots"
+    rarity: 2
+    unbreakable: true
+    color: "#166a8c"
+    stats:
+      luck: 0.25
+      ruin: 0.05
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  DROWNED_HELMET:
+    id: "89e15fa5"
+    material: LEATHER_HELMET
+    name: "Drowned Helmet"
+    rarity: 4
+    unbreakable: true
+    color: "#5a8f7b"
+    set: DROWNED
+    stats:
+      luck: 0.15
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  DROWNED_CHESTPLATE:
+    id: "b6332fbd"
+    material: LEATHER_CHESTPLATE
+    name: "Drowned Chestplate"
+    rarity: 4
+    unbreakable: true
+    color: "#866a48"
+    set: DROWNED
+    stats:
+      luck: 0.15
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  DROWNED_LEGGINGS:
+    id: "8dd2aaa9"
+    material: LEATHER_LEGGINGS
+    name: "Drowned Leggings"
+    rarity: 4
+    unbreakable: true
+    color: "#866a48"
+    set: DROWNED
+    stats:
+      luck: 0.15
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  DROWNED_BOOTS:
+    id: "0c6361ac"
+    material: LEATHER_BOOTS
+    name: "Drowned Boots"
+    rarity: 4
+    unbreakable: true
+    color: "#5a8f7b"
+    set: DROWNED
+    stats:
+      luck: 0.15
+      ruin: 0.1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  CROWN_OF_THE_DAMNED:
+    id: "ec6b06b0"
+    material: GOLDEN_HELMET
+    name: "Crown of the Damned"
+    rarity: 5
+    unbreakable: true
+    color: "#5a8f7b"
+    stats:
+      luck: -10
+      ruin: 2
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  # RODS
+  OCEAN_ROD:
+    id: "adff0fe5"
+    material: FISHING_ROD
+    name: "[T2] Ocean Rod"
+    rarity: 2
+    unbreakable: true
+    stats:
+      luck: 0.2
+      fishing_speed: -1
+      multifish: 3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  # WEAPONS
+  MEGALODON_TOOTH_SPEAR:
+    id: "11b8189e"
+    material: DIAMOND_SHOVEL
+    name: "Megalodon Tooth Spear"
+    rarity: 5
+    unbreakable: true
+    stats:
+      damage: 25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  # TALISMANS
+  OCEAN_TALISMAN:
+    id: "1ad04bdb"
+    material: PUFFERFISH_SPAWN_EGG
+    name: "[T2] Ocean Talisman"
+    rarity: 2
+    glow: true
+    type: "talisman"
+    stats:
+      luck: 0.35
+
+  # === JUNGLE ===
+  # - MATERIALS -
+  OLD_COD:
+    id: "4a3dc27d"
+    material: COD
+    name: "Old Cod"
+    rarity: 0
+
+  VINES:
+    id: "bd8fd39a"
+    material: VINE
+    name: "Vines"
+    rarity: 0
+
+  PUFFERFISH:
+    id: "4bc34da4"
+    material: PUFFERFISH
+    name: "Pufferfish"
+    rarity: 1
+
+  BLOODFIN_PIRANHA:
+    id: "27f5279a"
+    material: SALMON
+    name: "Bloodfin Piranha"
+    rarity: 2
+
+  SERPENT_SCALES:
+    id: "497702a3"
+    material: GREEN_DYE
+    name: "Serpent Scales"
+    rarity: 3
+
+  VERDANT_EMERALD:
+    id: "fe42584c"
+    material: EMERALD
+    name: "Verdent Emerald"
+    rarity: 4
+    lore:
+      - "Faint glow, believed to carry the life force of the jungle"
+
+  TOTEM_OF_THE_JAGUAR:
+    id: "401e8a42"
+    material: JUNGLE_SAPLING
+    name: "Totem of the Jaguar"
+    rarity: 5
+    lore:
+      - "An echanted carved totem depicting a jaguar."
+
+  GOLDEN_IDOL:
+    id: "7f375472"
+    material: TOTEM_OF_UNDYING
+    name: "Golden Idol"
+    rarity: 5
+    lore:
+      - "A relic from a lost jungle civilization."
+      - "It gleams with untold secrets and ancient power."
+
+  SPIRIT_ESSENCE:
+    id: "f7e1dce5"
+    material: PHANTOM_MEMBRANE
+    name: "Spirit Essence"
+    rarity: 4
+    lore:
+      - "Used in voodoo rituals to bind and curse"
+
+  # ARMOR
+  JUNGLE_HELMET:
+    id: "9be75794"
+    material: LEATHER_HELMET
+    name: "[T3] Jungle Helmet"
+    rarity: 3
+    unbreakable: true
+    color: "#508521"
+    stats:
+      luck: 0.35
+      ruin: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  JUNGLE_CHESTPLATE:
+    id: "82a012b9"
+    material: LEATHER_CHESTPLATE
+    name: "[T3] Jungle Chestplate"
+    rarity: 3
+    unbreakable: true
+    color: "#237513"
+    stats:
+      luck: 0.35
+      ruin: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  JUNGLE_LEGGINGS:
+    id: "bd403088"
+    material: LEATHER_LEGGINGS
+    name: "[T3] Jungle Leggings"
+    rarity: 3
+    unbreakable: true
+    color: "#397513"
+    stats:
+      luck: 0.35
+      ruin: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  JUNGLE_BOOTS:
+    id: "b3291eb6"
+    material: LEATHER_BOOTS
+    name: "[T3] Jungle Boots"
+    rarity: 3
+    unbreakable: true
+    color: "#449100"
+    stats:
+      luck: 0.35
+      ruin: 0.15
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  VOODOO_MASK:
+    id: "190ea251"
+    skull: 23599
+    name: "Voodoo Mask"
+    rarity: 4
+    unbreakable: true
+    color: "#508521"
+    set: VOODOO
+    stats:
+      luck: 0.25
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  VOODOO_CHESTPLATE:
+    id: "bf3c4584"
+    material: LEATHER_CHESTPLATE
+    name: "Voodoo Chestplate"
+    rarity: 4
+    unbreakable: true
+    color: "#343922"
+    set: VOODOO
+    stats:
+      luck: 0.25
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  VOODOO_LEGGINGS:
+    id: "6bfdd9fb"
+    material: LEATHER_LEGGINGS
+    name: "Voodoo Leggings"
+    rarity: 4
+    unbreakable: true
+    color: "#313a1f"
+    set: VOODOO
+    stats:
+      luck: 0.25
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  VOODOO_BOOTS:
+    id: "b14f5875"
+    material: LEATHER_BOOTS
+    name: "Voodoo Boots"
+    rarity: 4
+    unbreakable: true
+    color: "#2b3220"
+    set: VOODOO
+    stats:
+      luck: 0.25
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  # RODS
+  JUNGLE_ROD:
+    id: "16afdad3"
+    material: FISHING_ROD
+    name: "[T3] Jungle Rod"
+    rarity: 3
+    unbreakable: true
+    stats:
+      luck: 0.3
+      ruin: 0.1
+      fishing_speed: 1
+      multifish: 2
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  # TALISMANS
+  JUNGLE_TALISMAN:
+    id: "33a0ca26"
+    material: BOGGED_SPAWN_EGG
+    name: "[T3] Jungle Talisman"
+    rarity: 3
+    glow: true
+    type: "talisman"
+    stats:
+      luck: 0.5
+
+  # -- FROZEN --
+  # MATERIALS
+  ICE_TROUT:
+    id: "5d3a8250"
+    material: COD
+    name: "Ice Trout"
+    rarity: 0
+
+  SNOW_CRAB:
+    id: "70b1e623"
+    material: SPIDER_EYE
+    name: "Snow Crab"
+    rarity: 1
+
+  PENGUIN_EGG:
+    id: "17b2f4fe"
+    material: TURTLE_EGG
+    name: "Penguin Egg"
+    rarity: 2
+
+  FROZEN_SKULL:
+    id: "645805c6"
+    material: SKELETON_SKULL
+    name: "Frozen Skull"
+    rarity: 3
+
+  FROSTED_ANTLER:
+    id: "705ca2a8"
+    material: BONE
+    name: "Frosted Antler"
+    rarity: 4
+
+  GLACIAL_RUNE:
+    id: "2bce0b5c"
+    material: LAPIS_LAZULI
+    name: "Glacial Rune"
+    rarity: 5
+    lore:
+      - "An ancient rune etched in eternal ice."
+
+  JOTUN_ICE_CORE:
+    id: "7c75a8fa"
+    material: HEAVY_CORE
+    name: "Jotun's Ice Core"
+    rarity: 6
+    lore:
+      - "The frozen heart of a giant that ruled the northern wastes."
+      - "Legends say it still beats, even beneath the ice."
+
+  # ARMOR
+  ARCTIC_HELMET:
+    id: "4056fedc"
+    material: LEATHER_HELMET
+    name: "[T4] Arctic Helmet"
+    rarity: 4
+    unbreakable: true
+    color: "#b1e3e3"
+    stats:
+      luck: 0.45
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  ARCTIC_CHESTPLATE:
+    id: "95fee2f0"
+    material: LEATHER_CHESTPLATE
+    name: "[T4] Arctic Chestplate"
+    rarity: 4
+    unbreakable: true
+    color: "#69c9c9"
+    stats:
+      luck: 0.45
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  ARCTIC_LEGGINGS:
+    id: "dc1bc5ad"
+    material: LEATHER_LEGGINGS
+    name: "[T4] Arctic Leggings"
+    rarity: 4
+    unbreakable: true
+    color: "#9bcfc9"
+    stats:
+      luck: 0.45
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  ARCTIC_BOOTS:
+    id: "7dfd9315"
+    material: LEATHER_BOOTS
+    name: "[T4] Arctic Boots"
+    rarity: 4
+    unbreakable: true
+    color: "#6bb5ac"
+    stats:
+      luck: 0.45
+      ruin: 0.25
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  # RODS
+  ARCTIC_ROD:
+    id: "0cc519e7"
+    material: FISHING_ROD
+    name: "[T4] Arctic Rod"
+    rarity: 4
+    unbreakable: true
+    stats:
+      luck: 0.4
+      ruin: 0.2
+      fishing_speed: 1
+      multifish: 3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+  # TALISMANS
+  ARCTIC_TALISMAN:
+    id: "553b14a6"
+    material: POLAR_BEAR_SPAWN_EGG
+    name: "[T4] Arctic Talisman"
+    rarity: 4
+    glow: true
+    type: "talisman"
+    stats:
+      luck: 0.7
+
+  # === CHERRY GROVE ===
+  # - MATERIALS -
+  PINK_SPLASHER:
+    id: "46db3432"
+    material: SALMON
+    name: "Pink Splasher"
+    rarity: 0
+
+  PINK_TULIP:
+    id: "86ffed49"
+    material: PINK_TULIP
+    name: "Pink Tulip"
+    rarity: 1
+  
+  CHERRY_FRUIT:
+    id: "bdde6834"
+    material: APPLE
+    name: "Cherry Fruit"
+    rarity: 2
+  
+  SAKURA_LEAVES:
+    id: "ca702573"
+    material: CHERRY_LEAVES
+    name: "Sakura Leaves"
+    rarity: 3
+
+  CHERRY_CRYSTAL:
+    id: "e2534b3d"
+    material: LARGE_AMETHYST_BUD
+    name: "Cherry Crystal"
+    rarity: 4
+
+  SPRINGVEIL_BUD:
+    id: "de666678"
+    material: CHORUS_PLANT
+    name: "Springveil Bud"
+    rarity: 5
+  
+  SPRINGVEIL_BLOSSOM:
+    id: "88d7b365"
+    material: CHORUS_FLOWER
+    name: "Springveil Blossom"
+    rarity: 6
+
+  CELESTIA_CHERRY:
+    id: "11605989"
+    material: APPLE
+    name: "Celestia Cherry"
+    glow: true
+    rarity: 8
+
+  # - ARMOR - 
+
+  SIREN_MASK:
+    id: "2033b673"
+    skull: 68246
+    name: "Siren Mask"
+    rarity: 5
+    unbreakable: true
+    set: SIREN
+    stats:
+      luck: 0.3
+      ruin: 0.5
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SIREN_HELMET:
+    id: "19a9fb24"
+    material: LEATHER_HELMET
+    name: "Siren Helmet"
+    rarity: 4
+    unbreakable: true
+    set: SIREN
+    color: "#1ea87d"
+    stats:
+      luck: 0.1
+      ruin: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SIREN_CHESTPLATE:
+    id: "13c32e5c"
+    material: LEATHER_CHESTPLATE
+    name: "Siren Chestplate"
+    rarity: 4
+    unbreakable: true
+    set: SIREN
+    color: "#187d54"
+    stats:
+      luck: 0.1
+      ruin: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SIREN_LEGGINGS:
+    id: "d2ba8021"
+    material: LEATHER_LEGGINGS
+    name: "Siren Leggings"
+    rarity: 4
+    unbreakable: true
+    set: SIREN
+    color: "#21966f"
+    stats:
+      luck: 0.1
+      ruin: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SIREN_BOOTS:
+    id: "a2bba663"
+    material: LEATHER_BOOTS
+    name: "Siren Boots"
+    rarity: 4
+    unbreakable: true
+    set: SIREN
+    color: "#41ab7f"
+    stats:
+      luck: 0.1
+      ruin: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  CHERRY_HELMET:
+    id: "e595b717"
+    material: LEATHER_HELMET
+    name: "Cherry Helmet"
+    rarity: 5
+    unbreakable: true
+    color: "#ec81a2"
+    set: CHERRY
+    stats:
+      luck: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  CHERRY_CHESTPLATE:
+    id: "e4375645"
+    material: LEATHER_CHESTPLATE
+    name: "Cherry Chestplate"
+    rarity: 5
+    unbreakable: true
+    color: "#df70ab"
+    set: CHERRY
+    stats:
+      luck: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  CHERRY_LEGGINGS:
+    id: "dd79aab2"
+    material: LEATHER_LEGGINGS
+    name: "Cherry Leggings"
+    rarity: 5
+    unbreakable: true
+    color: "#e793c1"
+    set: CHERRY
+    stats:
+      luck: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  CHERRY_BOOTS:
+    id: "47d7d5d7"
+    material: LEATHER_BOOTS
+    name: "Cherry Boots"
+    rarity: 5
+    unbreakable: true
+    color: "#e5779b"
+    set: CHERRY
+    stats:
+      luck: 0.3
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+  
+  SAKURA_CHESTPLATE:
+    id: "af282234"
+    material: LEATHER_CHESTPLATE
+    name: "Sakura Chestplate"
+    rarity: 6
+    unbreakable: true
+    color: "#be4196"
+    set: CHERRY
+    stats:
+      luck: 0.5
+      multifish: 1
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  # - WEAPONS -
+  CHERRY_AXE:
+    id: "61d6c565"
+    material: GOLDEN_AXE
+    name: "Cherry Axe"
+    rarity: 5
+    unbreakable: true
+    stats:
+      damage: 30
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_ATTRIBUTES
+
+
+
+  ########
+  # ARMOR
+  MANGROVE_HELMET:
+    id: "aa2c4e86"
+    material: LEATHER_HELMET
+    name: "[T5] Mangrove Helmet"
+    rarity: 4
+    unbreakable: true
+    color: "#853326"
+    stats:
+      luck: 0.55
+      ruin: 0.35
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  MANGROVE_CHESTPLATE:
+    id: "b7b458f8"
+    material: LEATHER_CHESTPLATE
+    name: "[T5] Mangrove Chestplate"
+    rarity: 4
+    unbreakable: true
+    color: "#a13a2a"
+    stats:
+      luck: 0.55
+      ruin: 0.35
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  MANGROVE_LEGGINGS:
+    id: "290231b0"
+    material: LEATHER_LEGGINGS
+    name: "[T5] Mangrove Leggings"
+    rarity: 4
+    unbreakable: true
+    color: "#943222"
+    stats:
+      luck: 0.55
+      ruin: 0.35
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  MANGROVE_BOOTS:
+    id: "c6ec7821"
+    material: LEATHER_BOOTS
+    name: "[T5] Mangrove Boots"
+    rarity: 4
+    unbreakable: true
+    color: "#782e22"
+    stats:
+      luck: 0.55
+      ruin: 0.35
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SLIME_HELMET:
+    id: "7db205af"
+    material: LEATHER_HELMET
+    name: "Slime Helmet"
+    rarity: 4
+    unbreakable: true
+    color: "#39ff14"
+    set: SLIME
+    stats:
+      ruin: 0.5
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SLIME_CHESTPLATE:
+    id: "010e8020"
+    material: LEATHER_CHESTPLATE
+    name: "Slime Chestplate"
+    rarity: 4
+    unbreakable: true
+    color: "#a13a2a"
+    color: "#39ff14"
+    set: SLIME
+    stats:
+      ruin: 0.5
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SLIME_LEGGINGS:
+    id: "20a7fa59"
+    material: LEATHER_LEGGINGS
+    name: "Slime Leggings"
+    rarity: 4
+    unbreakable: true
+    color: "#39ff14"
+    set: SLIME
+    stats:
+      ruin: 0.5
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES
+
+  SLIME_BOOTS:
+    id: "9aaf6ac5"
+    material: LEATHER_BOOTS
+    name: "Slime Boots"
+    rarity: 4
+    unbreakable: true
+    color: "#39ff14"
+    set: SLIME
+    stats:
+      ruin: 0.5
+    flags:
+      - HIDE_UNBREAKABLE
+      - HIDE_DYE
+      - HIDE_ATTRIBUTES

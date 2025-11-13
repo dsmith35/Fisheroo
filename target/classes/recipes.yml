@@ -1,0 +1,608 @@
+recipes:
+  SHELL_SWORD:
+    type: SHAPED
+    shape:
+      - " S "
+      - " S "
+      - " D "
+    ingredients:
+      S: SEASHELL
+      D: DRIFTWOOD
+    result: SHELL_SWORD
+
+  SHELL_HELMET:
+    type: SHAPED
+    shape:
+      - "SSS"
+      - "S S"
+      - "   "
+    ingredients:
+      S: SEASHELL
+    result: SHELL_HELMET
+
+  SHELL_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "S S"
+      - "SSS"
+      - "SSS"
+    ingredients:
+      S: SEASHELL
+    result: SHELL_CHESTPLATE
+
+  SHELL_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "SSS"
+      - "S S"
+      - "S S"
+    ingredients:
+      S: SEASHELL
+    result: SHELL_LEGGINGS
+
+  SHELL_BOOTS:
+    type: SHAPED
+    shape:
+      - "   "
+      - "S S"
+      - "S S"
+    ingredients:
+      S: SEASHELL
+    result: SHELL_BOOTS
+
+  SHELL_TALISMAN:
+    type: SHAPED
+    shape:
+      - "SSS"
+      - "S S"
+      - "SSS"
+    ingredients:
+      S: SEASHELL
+    result: SHELL_TALISMAN
+
+  SHARK_TOOTH_SWORD:
+    type: SHAPED
+    shape:
+      - " S "
+      - " S "
+      - " D "
+    ingredients:
+      S: SHARK_TOOTH
+      D: DRIFTWOOD
+    result: SHARK_TOOTH_SWORD
+
+  PIRATE_HELMET:
+    type: SHAPED
+    shape:
+      - "PPP"
+      - "P P"
+      - "   "
+    ingredients:
+      P: PIRATE_CLOTH
+    result: PIRATE_HELMET
+
+  PIRATE_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "P P"
+      - "PPP"
+      - "PPP"
+    ingredients:
+      P: PIRATE_CLOTH
+    result: PIRATE_CHESTPLATE
+
+  PIRATE_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "PPP"
+      - "P P"
+      - "P P"
+    ingredients:
+      P: PIRATE_CLOTH
+    result: PIRATE_LEGGINGS
+
+  PIRATE_BOOTS:
+    type: SHAPED
+    shape:
+      - "   "
+      - "P P"
+      - "P P"
+    ingredients:
+      P: PIRATE_CLOTH
+    result: PIRATE_BOOTS
+
+  PIRATE_CUTLASS:
+    type: SHAPED
+    shape:
+      - " G "
+      - " G "
+      - " B "
+    ingredients:
+      B: CURSED_BONE
+      G: PIRATE_GOLD
+    result: PIRATE_CUTLASS
+
+  BEACH_ROD:
+    type: SHAPED
+    shape:
+      - "SGS"
+      - "BFB"
+      - "SBS"
+    ingredients:
+      F: STARTER_ROD
+      S: SHARK_TOOTH
+      B: CURSED_BONE
+      G: PIRATE_GOLD
+    result: BEACH_ROD
+
+  BEACH_HELMET:
+    type: SHAPED
+    shape:
+      - "SBS"
+      - "SXS"
+      - "SBS"
+    ingredients:
+      X: SHELL_HELMET
+      S: SHARK_TOOTH
+      B: CURSED_BONE
+    result: BEACH_HELMET
+
+  BEACH_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "SBS"
+      - "SXS"
+      - "SBS"
+    ingredients:
+      X: SHELL_CHESTPLATE
+      S: SHARK_TOOTH
+      B: CURSED_BONE
+    result: BEACH_CHESTPLATE
+
+  BEACH_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "SBS"
+      - "SXS"
+      - "SBS"
+    ingredients:
+      X: SHELL_LEGGINGS
+      S: SHARK_TOOTH
+      B: CURSED_BONE
+    result: BEACH_LEGGINGS
+
+  BEACH_BOOTS:
+    type: SHAPED
+    shape:
+      - "SBS"
+      - "SXS"
+      - "SBS"
+    ingredients:
+      X: SHELL_BOOTS
+      S: SHARK_TOOTH
+      B: CURSED_BONE
+    result: BEACH_BOOTS
+
+  BEACH_TALISMAN:
+    type: SHAPED
+    shape:
+      - "CAC"
+      - "BXB"
+      - "CBC"
+    ingredients:
+      X: SHELL_TALISMAN
+      A: PIRATE_GOLD
+      B: CURSED_BONE
+      C: SHARK_TOOTH
+    result: BEACH_TALISMAN
+
+  OCEAN_ROD:
+    type: SHAPED
+    shape:
+      - "PMP"
+      - "BFB"
+      - "PBP"
+    ingredients:
+      F: BEACH_ROD
+      P: PEARL
+      B: CORAL_FRAGMENT
+      M: MERMAID_SCALE
+    result: OCEAN_ROD
+
+  OCEAN_HELMET:
+    type: SHAPED
+    shape:
+      - "PCP"
+      - "PXP"
+      - "PCP"
+    ingredients:
+      X: BEACH_HELMET
+      P: PEARL
+      C: CORAL_FRAGMENT
+    result: OCEAN_HELMET
+
+  OCEAN_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "PCP"
+      - "PXP"
+      - "PCP"
+    ingredients:
+      X: BEACH_CHESTPLATE
+      P: PEARL
+      C: CORAL_FRAGMENT
+    result: OCEAN_CHESTPLATE
+
+  OCEAN_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "PCP"
+      - "PXP"
+      - "PCP"
+    ingredients:
+      X: BEACH_LEGGINGS
+      P: PEARL
+      C: CORAL_FRAGMENT
+    result: OCEAN_LEGGINGS
+
+  OCEAN_BOOTS:
+    type: SHAPED
+    shape:
+      - "PCP"
+      - "PXP"
+      - "PCP"
+    ingredients:
+      X: BEACH_BOOTS
+      P: PEARL
+      C: CORAL_FRAGMENT
+    result: OCEAN_BOOTS
+
+  OCEAN_TALISMAN:
+    type: SHAPED
+    shape:
+      - "CAC"
+      - "BXB"
+      - "CBC"
+    ingredients:
+      X: BEACH_TALISMAN
+      A: MEGALODON_TOOTH
+      B: MERMAID_SCALE
+      C: CORAL_FRAGMENT
+    result: OCEAN_TALISMAN
+
+  DROWNED_HELMET:
+    type: SHAPED
+    shape:
+      - "XXX"
+      - "X X"
+      - "   "
+    ingredients:
+      X: SUNKEN_SCRAP
+    result: DROWNED_HELMET
+
+  DROWNED_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "X X"
+      - "XXX"
+      - "XXX"
+    ingredients:
+      X: SUNKEN_SCRAP
+    result: DROWNED_CHESTPLATE
+
+  DROWNED_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "XXX"
+      - "X X"
+      - "X X"
+    ingredients:
+      X: SUNKEN_SCRAP
+    result: DROWNED_LEGGINGS
+
+  DROWNED_BOOTS:
+    type: SHAPED
+    shape:
+      - "   "
+      - "X X"
+      - "X X"
+    ingredients:
+      X: SUNKEN_SCRAP
+    result: DROWNED_BOOTS
+
+  OCEAN_HORN:
+    type: SHAPED
+    shape:
+      - "DAB"
+      - "A A"
+      - "CAE"
+    ingredients:
+      A: MERMAID_SCALE
+      B: CORAL_FRAGMENT
+      C: PIRATE_GOLD
+      D: PEARL
+      E: CURSED_BONE
+    result: OCEAN_HORN
+
+  MEGALODON_TOOTH_SPEAR:
+    type: SHAPED
+    shape:
+      - " A "
+      - " B "
+      - " B "
+    ingredients:
+      A: MEGALODON_TOOTH
+      B: DRIFTWOOD
+    result: MEGALODON_TOOTH_SPEAR
+
+  JUNGLE_ROD:
+    type: SHAPED
+    shape:
+      - "CAC"
+      - "BXB"
+      - "CBC"
+    ingredients:
+      X: OCEAN_ROD
+      A: TOTEM_OF_THE_JAGUAR
+      B: VERDANT_EMERALD
+      C: SERPENT_SCALES
+    result: JUNGLE_ROD
+
+  JUNGLE_HELMET:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: OCEAN_HELMET
+      Y: VERDANT_EMERALD
+      Z: SERPENT_SCALES
+    result: JUNGLE_HELMET
+
+  JUNGLE_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: OCEAN_CHESTPLATE
+      Y: VERDANT_EMERALD
+      Z: SERPENT_SCALES
+    result: JUNGLE_CHESTPLATE
+
+  JUNGLE_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: OCEAN_LEGGINGS
+      Y: VERDANT_EMERALD
+      Z: SERPENT_SCALES
+    result: JUNGLE_LEGGINGS
+
+  JUNGLE_BOOTS:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: OCEAN_BOOTS
+      Y: VERDANT_EMERALD
+      Z: SERPENT_SCALES
+    result: JUNGLE_BOOTS
+
+  JUNGLE_TALISMAN:
+    type: SHAPED
+    shape:
+      - "CAC"
+      - "BXB"
+      - "CBC"
+    ingredients:
+      X: OCEAN_TALISMAN
+      A: GOLDEN_IDOL
+      B: VERDANT_EMERALD
+      C: SERPENT_SCALES
+    result: JUNGLE_TALISMAN
+
+  VOODOO_MASK:
+    type: SHAPED
+    shape:
+      - "XXX"
+      - "X X"
+      - "   "
+    ingredients:
+      X: SPIRIT_ESSENCE
+    result: VOODOO_MASK
+
+  VOODOO_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "X X"
+      - "XXX"
+      - "XXX"
+    ingredients:
+      X: SPIRIT_ESSENCE
+    result: VOODOO_CHESTPLATE
+
+  VOODOO_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "XXX"
+      - "X X"
+      - "X X"
+    ingredients:
+      X: SPIRIT_ESSENCE
+    result: VOODOO_LEGGINGS
+
+  VOODOO_BOOTS:
+    type: SHAPED
+    shape:
+      - "   "
+      - "X X"
+      - "X X"
+    ingredients:
+      X: SPIRIT_ESSENCE
+    result: VOODOO_BOOTS
+
+  ARCTIC_ROD:
+    type: SHAPED
+    shape:
+      - "CAC"
+      - "BXB"
+      - "CBC"
+    ingredients:
+      X: JUNGLE_ROD
+      A: JOTUN_ICE_CORE
+      B: GLACIAL_RUNE
+      C: FROSTED_ANTLER
+    result: ARCTIC_ROD
+
+  ARCTIC_HELMET:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: JUNGLE_HELMET
+      Y: GLACIAL_RUNE
+      Z: FROSTED_ANTLER
+    result: ARCTIC_HELMET
+
+  ARCTIC_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: JUNGLE_CHESTPLATE
+      Y: GLACIAL_RUNE
+      Z: FROSTED_ANTLER
+    result: ARCTIC_CHESTPLATE
+
+  ARCTIC_LEGGINGS:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: JUNGLE_LEGGINGS
+      Y: GLACIAL_RUNE
+      Z: FROSTED_ANTLER
+    result: ARCTIC_LEGGINGS
+
+  ARCTIC_BOOTS:
+    type: SHAPED
+    shape:
+      - "ZYZ"
+      - "ZXZ"
+      - "ZYZ"
+    ingredients:
+      X: JUNGLE_BOOTS
+      Y: GLACIAL_RUNE
+      Z: FROSTED_ANTLER
+    result: ARCTIC_BOOTS
+
+  ARCTIC_TALISMAN:
+    type: SHAPED
+    shape:
+      - "CAC"
+      - "BXB"
+      - "CBC"
+    ingredients:
+      X: JUNGLE_TALISMAN
+      A: JOTUN_ICE_CORE
+      B: GLACIAL_RUNE
+      C: FROSTED_ANTLER
+    result: ARCTIC_TALISMAN
+
+  CHERRY_ARTIFACT:
+    type: SHAPED
+    shape:
+      - "BAB"
+      - "AXA"
+      - "BAB"
+    ingredients:
+      X: CHERRY_FRUIT
+      A: SPRINGVEIL_BLOSSOM
+      B: SPRINGVEIL_BUD
+    result: CHERRY_ARTIFACT
+
+  CHERRY_HELMET:
+    type: SHAPED
+    shape:
+      - " A "
+      - "BXB"
+      - " B "
+    ingredients:
+      X: SHELL_HELMET
+      A: SPRINGVEIL_BUD
+      B: CHERRY_FRUIT
+    result: CHERRY_HELMET
+
+  CHERRY_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - " A "
+      - "BXB"
+      - " B "
+    ingredients:
+      X: SHELL_CHESTPLATE
+      A: SPRINGVEIL_BUD
+      B: CHERRY_FRUIT
+    result: CHERRY_CHESTPLATE
+
+  CHERRY_LEGGINGS:
+    type: SHAPED
+    shape:
+      - " A "
+      - "BXB"
+      - " B "
+    ingredients:
+      X: SHELL_LEGGINGS
+      A: SPRINGVEIL_BUD
+      B: CHERRY_FRUIT
+    result: CHERRY_LEGGINGS
+
+  CHERRY_BOOTS:
+    type: SHAPED
+    shape:
+      - " A "
+      - "BXB"
+      - " B "
+    ingredients:
+      X: SHELL_BOOTS
+      A: SPRINGVEIL_BUD
+      B: CHERRY_FRUIT
+    result: CHERRY_BOOTS
+
+  SAKURA_CHESTPLATE:
+    type: SHAPED
+    shape:
+      - "BAB"
+      - "BXB"
+      - "BBB"
+    ingredients:
+      X: CHERRY_CHESTPLATE
+      A: SPRINGVEIL_BLOSSOM
+      B: SAKURA_LEAVES
+    result: SAKURA_CHESTPLATE
+
+  CHERRY_AXE:
+    type: SHAPED
+    shape:
+      - " CB"
+      - " AB"
+      - " A "
+    ingredients:
+      A: DRIFTWOOD
+      B: CHERRY_CRYSTAL
+      C: SPRINGVEIL_BUD
+    result: CHERRY_AXE

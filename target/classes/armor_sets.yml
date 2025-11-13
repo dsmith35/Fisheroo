@@ -1,0 +1,38 @@
+armor_sets:
+  PIRATE:
+    name: "&6Pirate"
+    stats:
+      ruin: 0.5
+
+  PIONEER:
+    name: "&dPioneer"
+    stats:
+      luck: 0.3
+      ruin: 0.3
+
+  DROWNED:
+    name: "&3Drowned"
+    stats:
+      luck: 0.7
+
+  VOODOO:
+    name: "&2Voodoo"
+    stats:
+      luck: 0.4
+      ruin: 0.4
+
+  SIREN:
+    name: "&cSiren"
+    stats:
+      luck: 1
+      ruin: -1.2
+
+  CHERRY:
+    name: "&cCherry"
+    stats:
+      multifish: 1
+
+  SLIME:
+    name: "&aSlime"
+    stats:
+      ruin: 0.5

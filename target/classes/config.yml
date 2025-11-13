@@ -1,0 +1,17 @@
+luck_multiplier_default: 1.0
+ruin_multiplier_default: 1.0
+multifish_multiplier_default: 1.0
+
+global_luck_bonus: 0.0
+global_luck_multiplier: 1.0
+
+global_ruin_bonus: 0.0
+global_ruin_multiplier: 1.0
+
+global_multifish_bonus: 0.0
+global_multifish_multiplier: 1.0
+
+global_fishing_speed_multiplier: 1.0
+
+broadcast_rare_catches: true
+announcement_rarity_threshold: 4

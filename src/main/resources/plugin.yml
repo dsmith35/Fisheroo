@@ -1,0 +1,99 @@
+name: Fisheroo
+version: 1.0
+main: com.dylan.fisheroo.Main
+api-version: 1.21
+softdepend: [Vault, Skulls]
+author: TotalApathy
+
+permissions:
+  fisheroo.admin:
+    description: Allows admin commands for Fisheroo
+    default: op
+
+commands:
+  customfish:
+    description: Give a custom fish to the player
+    usage: /<command> [amount] [player]
+
+  setstat:
+    description: Force a stat multiplier of the given stat for a player (no value to remove, no stat to remove all)
+    usage: /setstat <player> [stat] [value]
+
+  updateitems:
+    description: Updates all custom items in your inventory to the latest version.
+
+  giveitem:
+    description: Give a custom item to a player
+    usage: /giveitem <player> <itemKey> [amount]
+
+  summonboss:
+    description: Spawns a custom boss
+    usage: /summonboss <boss>
+
+  odds:
+    description: Show your fishing loot odds for the current biome and stats
+    usage: /odds
+
+  starter:
+    description: Gives you the starter fishing rod
+    usage: /starter
+
+  discord:
+    description: Get the link to the Fisheroo discord
+    usage: /discord
+
+  fisheroo:
+    description: Base command for Fisheroo
+    usage: /fisheroo <reload>
+    aliases: [fr]
+
+  recipe:
+    description: Shows the crafting recipe for a custom item
+    usage: /recipe <item>
+
+  recipes:
+    description: Shows all custom recipes
+    usage: /recipes
+
+  sell:
+    description: Open the sell GUI to exchange items for currency
+    usage: /sell
+
+  giveskull:
+    description: gives a skull from Skulls plugi by its id
+    usage: /giveskull
+
+  minbossrarity:
+    description: Manage the minimum rarity for boss spawns
+    usage:
+      - /minbossrarity get
+      - /minbossrarity set <number>
+      - /minbossrarity reset
+
+  customwarp:
+    description: Teleport to a custom warp
+    usage: /customwarp <warpName>
+
+  spawn:
+    description: Teleport to spawn
+    usage: /spawn
+
+  beach:
+    description: Teleport to the beach
+    usage: /beach
+
+  setglobalbonus:
+    description: Set a global bonus value
+    usage: /setglobalbonus <stat> <value>
+
+  setglobalmultiplier:
+    description: Set a global multiplier value
+    usage: /setglobalmultiplier <stat> <value>
+
+  clearglobalmodifiers:
+    description: Resets all global bonuses and multipliers
+    usage: /clearglobalmodifiers
+
+  customweather:
+    description: Set custom weather
+    usage: /customweather <weather>

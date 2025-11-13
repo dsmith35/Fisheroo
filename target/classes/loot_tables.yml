@@ -1,0 +1,83 @@
+biomes:
+  THE_VOID:
+    junk:
+      VOID_FISH: 1 #C
+
+  BEACH:
+    treasure:
+      PIRATE_GOLD: 0.01 #L
+      CURSED_BONE: 0.05 #E
+      SHARK_TOOTH: 0.1 #R
+      SEASHELL: 0.25 #U
+    junk:
+      TROPICAL_FISH: 0.5 #C
+      DRIFTWOOD: 0.5 #C
+    bosses:
+      SHELLSNAPPER: 0.05
+      CAPTAIN_BLACKFIN: 0.02
+      HERMIT_PRINCE: 0.0001
+
+  OCEAN:
+    treasure:
+      MEGALODON_TOOTH: 0.001 #M
+      MERMAID_SCALE: 0.007 #L
+      CORAL_FRAGMENT: 0.03 #E
+      PEARL: 0.08 #R
+      RAINBOW_TROUT: 0.12 #U
+    junk:
+      ATLANTIC_SALMON: 0.5 #C
+      SEAWEED: 0.5 #C
+    bosses:
+      DROWNED_SAILOR: 0.02
+      CAPTAIN_OF_THE_DAMNED: 0.005
+      PEARLWEAVER_SIREN: 0.001
+      PUFF: 0.0001
+
+  JUNGLE:
+    treasure:
+      GOLDEN_IDOL: 0.0005 #M
+      TOTEM_OF_THE_JAGUAR: 0.0008 #M
+      VERDANT_EMERALD: 0.005 #L
+      SERPENT_SCALES: 0.015 #E
+      BLOODFIN_PIRANHA: 0.06 #R
+      PUFFERFISH: 0.08 #U
+    junk:
+      VINES: 0.5 #C
+      OLD_COD: 0.5 #C
+    bosses:
+      JUNGLE_TERROR: 0.004
+
+  FROZEN_RIVER:
+    treasure:
+      JOTUN_ICE_CORE: 0.0002 #D
+      GLACIAL_RUNE: 0.0008 #M
+      FROSTED_ANTLER: 0.0035 #L
+      FROZEN_SKULL: 0.01 #E
+      PENGUIN_EGG: 0.05 #R
+      SNOW_CRAB: 0.08 #U
+    junk:
+      ICE_TROUT: 1 #C
+
+  FROZEN_PEAKS:
+    treasure:
+      JOTUN_ICE_CORE: 0.00025 #D
+      GLACIAL_RUNE: 0.0009 #M
+      FROSTED_ANTLER: 0.004 #L
+      FROZEN_SKULL: 0.01 #E
+      PENGUIN_EGG: 0.05 #R
+      SNOW_CRAB: 0.08 #U
+    junk:
+      ICE_TROUT: 1 #C
+
+  CHERRY_GROVE:
+    treasure:
+      CELESTIA_CHERRY: 0.000001 #SUPREME
+      SPRINGVEIL_BLOSSOM: 0.00015 #D
+      SPRINGVEIL_BUD: 0.001 #M
+      CHERRY_CRYSTAL: 0.004 #L
+      SAKURA_LEAVES: 0.01 #E
+      CHERRY_FRUIT: 0.05 #R
+      PINK_TULIP: 0.1 #U
+    junk:
+      PINK_SPLASHER: 1 #C
+

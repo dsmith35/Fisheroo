@@ -1,0 +1,4 @@
+warps: #x,y,z,yaw,pitch
+  SPAWN: -3,56,48,180,0
+  BEACH: -3,56,48,180,0
+  CHERRY_GROVE: -196,58,382,0,0

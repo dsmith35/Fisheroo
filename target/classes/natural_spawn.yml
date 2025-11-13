@@ -1,0 +1,40 @@
+natural_spawn:
+  CLOWNFISH:
+    boss: CLOWNFISH
+    biome: BEACH
+    frequency: 600 # 30s
+    chance: 0.5
+    maxNearby: 8
+    radius: 20
+    minDepth: 1
+    maxAttemptsPerCycle: 2
+
+  INKLING_BEACH:
+    boss: INKLING
+    biome: BEACH
+    frequency: 600 # ticks between attempts - 30s
+    chance: 0.35
+    maxNearby: 6 # max Inkling bosses in radius
+    radius: 40 # area to check for maxNearby
+    minDepth: 2
+    maxAttemptsPerCycle: 2
+
+  INKLING_OCEAN:
+    boss: INKLING
+    biome: OCEAN
+    frequency: 200 # ticks between attempts - 10s
+    chance: 0.7
+    maxNearby: 8 # max Inkling bosses in radius
+    radius: 30 # area to check for maxNearby
+    minDepth: 3
+    maxAttemptsPerCycle: 2
+
+  KRAKEN:
+    boss: KRAKEN
+    biome: OCEAN
+    frequency: 2400 # 2 mins
+    chance: 0.3
+    maxNearby: 1
+    radius: 120
+    minDepth: 4
+    maxAttemptsPerCycle: 10

@@ -1,0 +1,21 @@
+speeds:
+  "-2":
+    name: "Very Slow"
+    min_sec: 8
+    max_sec: 25
+  "-1":
+    name: "Slow"
+    min_sec: 5
+    max_sec: 15
+  "0":
+    name: "Normal"
+    min_sec: 5
+    max_sec: 10
+  "1":
+    name: "Fast"
+    min_sec: 3
+    max_sec: 8
+  "2":
+    name: "Very Fast"
+    min_sec: 1
+    max_sec: 3

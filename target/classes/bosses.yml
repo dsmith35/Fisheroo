@@ -1,0 +1,244 @@
+bosses:
+  KRAKEN:
+    name: "&bThe Kraken"
+    type: GLOW_SQUID
+    hp: 50
+    size: 2
+    rarity: 0
+    drops:
+      - item: KRAKEN_INK
+        chance: 1
+      - item: FISHING_TOKEN
+        min: 16
+        max: 64
+
+  INKLING:
+    name: "&bInkling"
+    type: SQUID
+    hp: 1
+    size: 0.5
+    rarity: 0
+    drops:
+      - item: FISHING_TOKEN
+        min: 1
+        max: 3
+
+  CLOWNFISH:
+    name: "&bClownfish"
+    type: TROPICAL_FISH
+    hp: 1
+    size: 2
+    nbt:
+      body_color: ORANGE
+      pattern_color: WHITE
+      pattern: KOB
+    rarity: 0
+    drops:
+      - item: FISHING_TOKEN
+
+  CAPTAIN_BLACKFIN:
+    name: "&bCaptain Blackfin"
+    type: WITHER_SKELETON
+    hp: 40
+    gear:
+      helmet: CAPTAIN_HAT
+      chestplate: PIRATE_CHESTPLATE
+      leggings: PIRATE_LEGGINGS
+      boots: PIRATE_BOOTS
+      mainhand: GOLDEN_SWORD
+      offhand: TROPICAL_FISH
+    drops:
+      - item: PIRATE_CLOTH
+        min: 1
+        max: 4
+      - item: PIRATE_HELMET
+        chance: 0.1
+      - item: PIRATE_CHESTPLATE
+        chance: 0.1
+      - item: PIRATE_LEGGINGS
+        chance: 0.1
+      - item: PIRATE_BOOTS
+        chance: 0.1
+      - item: CAPTAIN_HAT
+        chance: 0.02
+      - item: PIRATE_CUTLASS
+        chance: 0.02
+      - item: PIRATE_ROD
+        chance: 0.02
+    rarity: 2
+
+  SHELLSNAPPER:
+    name: "&bShellsnapper"
+    type: TURTLE
+    size: 1.25
+    hp: 10
+    drops:
+      - item: TURTLE_SHELL
+        chance: 1
+      - item: SEASHELL
+        min: 1
+        max: 6
+        item: SHARK_TOOTH
+        min: 0
+        max: 2
+      - item: CURSED_BONE
+        chance: 0.5
+      - item: SHELL_HELMET
+        chance: 0.1
+      - item: SHELL_CHESTPLATE
+        chance: 0.1
+      - item: SHELL_LEGGINGS
+        chance: 0.1
+      - item: SHELL_BOOTS
+        chance: 0.1
+      - item: SHELL_SWORD
+        chance: 0.3
+      - item: SHELL_TALISMAN
+        chance: 0.1
+      - item: TURTLE_HELMET
+        chance: 0.02
+    rarity: 1
+
+  DROWNED_SAILOR:
+    name: "&bDrowned Sailor"
+    type: DROWNED
+    hp: 80
+    gear:
+      helmet: DROWNED_HELMET
+      chestplate: DROWNED_CHESTPLATE
+      leggings: DROWNED_LEGGINGS
+      boots: DROWNED_BOOTS
+      mainhand: TRIDENT
+    drops:
+      - item: SUNKEN_SCRAP
+        min: 1
+        max: 1
+      - item: DROWNED_HELMET
+        chance: 0.03
+      - item: DROWNED_CHESTPLATE
+        chance: 0.03
+      - item: DROWNED_LEGGINGS
+        chance: 0.03
+      - item: DROWNED_BOOTS
+        chance: 0.03
+      - item: OCEAN_HORN
+        chance: 0.01
+    rarity: 2
+
+  CAPTAIN_OF_THE_DAMNED:
+    name: "&cCaptain of the Damned"
+    type: DROWNED
+    hp: 150
+    size: 1.4
+    gear:
+      helmet: CROWN_OF_THE_DAMNED
+      chestplate: DROWNED_CHESTPLATE
+      leggings: DROWNED_LEGGINGS
+      boots: DROWNED_BOOTS
+      mainhand: TRIDENT
+      offhand: SHIELD
+    drops:
+      - item: SUNKEN_SCRAP
+        min: 3
+        max: 5
+      - item: DROWNED_HELMET
+        chance: 0.12
+      - item: DROWNED_CHESTPLATE
+        chance: 0.12
+      - item: DROWNED_LEGGINGS
+        chance: 0.12
+      - item: DROWNED_BOOTS
+        chance: 0.12
+      - item: OCEAN_HORN
+        chance: 0.05
+      - item: CROWN_OF_THE_DAMNED
+        chance: 0.05
+    rarity: 3
+
+  PUFF:
+    name: "&dPuff"
+    type: PUFFERFISH
+    hp: 200
+    size: 10
+    drops:
+      - item: PUFF_ARTIFACT
+        chance: 1
+    rarity: 5
+
+  JUNGLE_TERROR:
+    name: "&2Jungle Terror"
+    type: BOGGED
+    hp: 300
+    size: 1.75
+    drops:
+      - item: SPIRIT_ESSENCE
+        min: 1
+        max: 3
+      - item: VOODOO_MASK
+        chance: 0.12
+      - item: VOODOO_CHESTPLATE
+        chance: 0.12
+      - item: VOODOO_LEGGINGS
+        chance: 0.12
+      - item: VOODOO_BOOTS
+        chance: 0.12
+    rarity: 3
+
+  HERMIT_PRINCE:
+    name: "&dHermit Prince"
+    type: HUSK
+    hp: 200
+    size: 0.9
+    rarity: 5
+    gear:
+      helmet: HERMIT_CRAB_ARTIFACT
+      chestplate: GOLDEN_CHESTPLATE
+      leggings: GOLDEN_LEGGINGS
+      boots: GOLDEN_BOOTS
+      mainhand: PIRATE_CUTLASS
+      offhand: PIRATE_CUTLASS
+    drops:
+      - item: HERMIT_CRAB_ARTIFACT
+        chance: 1
+
+  PEARLWEAVER_SIREN:
+    name: "&3Pearlweaver Siren"
+    type: DROWNED
+    hp: 100
+    size: 1
+    rarity: 4
+    gear:
+      helmet: SIREN_MASK
+      chestplate: SIREN_CHESTPLATE
+      leggings: SIREN_LEGGINGS
+      boots: SIREN_BOOTS
+      mainhand: DIAMOND_SWORD
+      offhand: CHERRY_GATEWAY
+    drops:
+      - item: MERMAID_SCALE
+        chance: 1
+      - item: CHERRY_GATEWAY
+        chance: 0.1
+      - item: SIREN_HELMET
+        chance: 0.2
+      - item: SIREN_CHESTPLATE
+        chance: 0.2
+      - item: SIREN_LEGGINGS
+        chance: 0.2
+      - item: SIREN_BOOTS
+        chance: 0.2
+      - item: SIREN_MASK
+        chance: 0.05
+
+  LORD_SLIME:
+    name: "&aLord Slime"
+    type: SLIME
+    hp: 400
+    size: 5
+    rarity: 4
+    gear:
+      mainhand: MEGALODON_TOOTH_SPEAR
+    drops:
+      - item: TROPICAL_FISH
+        chance: 1
+
